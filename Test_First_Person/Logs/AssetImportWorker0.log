@@ -1,0 +1,1995 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.476; Version 1909; 64bit' Language: 'ru' Physical Memory: 16283 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GitHub/Test_First_Person/TestFirstPerson/Test_First_Person
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63277
+Successfully changed project path to: D:/GitHub/Test_First_Person/TestFirstPerson/Test_First_Person
+D:/GitHub/Test_First_Person/TestFirstPerson/Test_First_Person
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 95.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Test_First_Person/TestFirstPerson/Test_First_Person/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001716 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.392 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3393ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (950ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.218 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2219ms)
+		BeginReloadAssembly (350ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1742ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (662ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (580ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (420ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1968.
+Total: 4.317300 ms (FindLiveObjects: 0.367300 ms CreateObjectMapping: 0.088000 ms MarkObjects: 3.727000 ms  DeleteObjects: 0.133100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.007327 seconds 
+  Import took 0.040913 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005766 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.879 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1884ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1553ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (592ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (531ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1549 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 72.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 4.971100 ms (FindLiveObjects: 0.385100 ms CreateObjectMapping: 0.102900 ms MarkObjects: 3.916500 ms  DeleteObjects: 0.564900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 107.052428 seconds.
+  path: Assets/KriptoFX
+  artifactKey: Guid(47ceef57d161b1045a5475ac23e624d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX using Guid(47ceef57d161b1045a5475ac23e624d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd165f9a745c2702c053ebee41d55a4') in 0.006387 seconds 
+  Import took 0.010283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.873937 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes
+  artifactKey: Guid(8c32bdb6f01258c4db4b276990edbe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes using Guid(8c32bdb6f01258c4db4b276990edbe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49846f03ecdb398fbeffd6b33bff0e4a') in 0.001911 seconds 
+  Import took 0.006009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061387 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/PostProcess Profile.asset
+  artifactKey: Guid(db2269a6032dd06479cb4f9eede8472f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/PostProcess Profile.asset using Guid(db2269a6032dd06479cb4f9eede8472f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0b6b8cdc76a0cbccb6f4c118db250c') in 0.043926 seconds 
+  Import took 0.048043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.664329 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/PC_Demo.unity
+  artifactKey: Guid(43d7a374330e29044a85445d791fdfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/PC_Demo.unity using Guid(43d7a374330e29044a85445d791fdfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a29a8272817cde2ce66a91f8931417e') in 0.060469 seconds 
+  Import took 0.124127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.383482 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials
+  artifactKey: Guid(63f38e18dab22784184efa498be7151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials using Guid(63f38e18dab22784184efa498be7151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07101f062cb28fb2118cfa7d6633de20') in 0.043373 seconds 
+  Import took 0.048859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.161967 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects
+  artifactKey: Guid(1d8f928bdd5cd324aac0f248bdfebeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects using Guid(1d8f928bdd5cd324aac0f248bdfebeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c3dfdb8ef6a746a4f51f36aa9180f0') in 0.002401 seconds 
+  Import took 0.020256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038240 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/BrickBulletDecal.mat
+  artifactKey: Guid(4fc82e067326c8841b6a74441f0ad888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/BrickBulletDecal.mat using Guid(4fc82e067326c8841b6a74441f0ad888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a819738dd2c296de2dca15920a088c') in 0.372423 seconds 
+  Import took 0.378296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Leaf.mat
+  artifactKey: Guid(df7ba9a5b4326d740bed54d7d7696e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Leaf.mat using Guid(df7ba9a5b4326d740bed54d7d7696e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdec500d327e938f9ac7073fd6d5f4f') in 0.122464 seconds 
+  Import took 0.127064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpactRing.mat
+  artifactKey: Guid(f3c798703ded5d743be76e6ea707c064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpactRing.mat using Guid(f3c798703ded5d743be76e6ea707c064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d7cb817dbbe6fcac5dc22073b7e692') in 0.043983 seconds 
+  Import took 0.049158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/ConcreteBulletDecalMobile.mat
+  artifactKey: Guid(5ed45bcf51ffc3144811beb6918a9398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/ConcreteBulletDecalMobile.mat using Guid(5ed45bcf51ffc3144811beb6918a9398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e8a999ce888a4c685334c0c2a73a65') in 0.055526 seconds 
+  Import took 0.060762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/DirtRocks.mat
+  artifactKey: Guid(6dfac5075c960b64882b830c79f3e9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/DirtRocks.mat using Guid(6dfac5075c960b64882b830c79f3e9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41512a549f2a67937619419a01b5d972') in 0.333286 seconds 
+  Import took 0.337891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/PlasterDust.mat
+  artifactKey: Guid(e45ccb34ed163fa4abd0cc0b2d4e93f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/PlasterDust.mat using Guid(e45ccb34ed163fa4abd0cc0b2d4e93f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3960478a7c16fc5acd8c4a8f3977659') in 0.050191 seconds 
+  Import took 0.054373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/PlasterRocks.mat
+  artifactKey: Guid(305b49cf57af23d4d8d98ce756075dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/PlasterRocks.mat using Guid(305b49cf57af23d4d8d98ce756075dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd23673234dd61b8512ca5e1dc01a4c0') in 0.014623 seconds 
+  Import took 0.033995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/DirtBulletDecal.mat
+  artifactKey: Guid(bde1b725596a38344b722094fcbf7e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/DirtBulletDecal.mat using Guid(bde1b725596a38344b722094fcbf7e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2789fcf7214048cc3b9c88aa485895') in 0.180810 seconds 
+  Import took 0.186842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/DirtDust.mat
+  artifactKey: Guid(43d671b49b16d3e4098df431ffecd61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/DirtDust.mat using Guid(43d671b49b16d3e4098df431ffecd61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04f73ca6b743d2de23b650b7d938719') in 0.023849 seconds 
+  Import took 0.028796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpactRingMobile.mat
+  artifactKey: Guid(5015d18f0c9007d448a96ea60c0ea668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpactRingMobile.mat using Guid(5015d18f0c9007d448a96ea60c0ea668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0561c71c3fe63f2c90ccdfda179d1d41') in 0.017238 seconds 
+  Import took 0.024213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpact2.mat
+  artifactKey: Guid(2cc28383d7fa32f4889a9d554385c91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpact2.mat using Guid(2cc28383d7fa32f4889a9d554385c91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23d35f399ff599987bca7a8c3e5d831') in 0.023654 seconds 
+  Import took 0.028585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/BrickBulletDecalMobile.mat
+  artifactKey: Guid(5340e5227b0899142b56cb81d50dd81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/BrickBulletDecalMobile.mat using Guid(5340e5227b0899142b56cb81d50dd81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eba44a24e05142e90746ad6a9054bc4') in 0.016538 seconds 
+  Import took 0.022245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Glass.mat
+  artifactKey: Guid(a2f42be17d0a1c14d8790ff352b744a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Glass.mat using Guid(a2f42be17d0a1c14d8790ff352b744a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9e510dc491ae623163ee9933cc0933') in 0.033821 seconds 
+  Import took 0.038338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/MetalBulletDecalMobile.mat
+  artifactKey: Guid(253770e1c1580e64cb32247c8bba3b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/MetalBulletDecalMobile.mat using Guid(253770e1c1580e64cb32247c8bba3b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d48e06e6e14b7aa67c0086912bec2a8') in 0.015948 seconds 
+  Import took 0.020510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/MetalSmoke.mat
+  artifactKey: Guid(b6d1cff140aa6c1469f040d090ca6316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/MetalSmoke.mat using Guid(b6d1cff140aa6c1469f040d090ca6316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6023eb1be5ce7192f7efc11cc87691') in 0.044105 seconds 
+  Import took 0.049547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpact2_mobile.mat
+  artifactKey: Guid(fc73cb713f7031048be22b482c9deefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpact2_mobile.mat using Guid(fc73cb713f7031048be22b482c9deefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25adefb80f6271d9e5c93e5f40416275') in 0.016127 seconds 
+  Import took 0.021628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Rock.mat
+  artifactKey: Guid(e40a1fb71131058488907a38587f28a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Rock.mat using Guid(e40a1fb71131058488907a38587f28a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fc35111ad30720f8fccf5c11477252') in 0.016537 seconds 
+  Import took 0.024424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/ConcreteBulletDecal.mat
+  artifactKey: Guid(f1730d9399319d84ab6ec49c490e595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/ConcreteBulletDecal.mat using Guid(f1730d9399319d84ab6ec49c490e595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8250d9b58acbcea442b7b46ea64ae1c9') in 0.013711 seconds 
+  Import took 0.019677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/ConcreteDustVertical.mat
+  artifactKey: Guid(37f9ab736f84ee04a838b948216154de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/ConcreteDustVertical.mat using Guid(37f9ab736f84ee04a838b948216154de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998351794e5a30c82d90f861d5ebd84d') in 0.019200 seconds 
+  Import took 0.023237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/RockBulletDecal.mat
+  artifactKey: Guid(12a681151775e3c49a97a02814ecfddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/RockBulletDecal.mat using Guid(12a681151775e3c49a97a02814ecfddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2661714377a153600033595b168b5ebc') in 0.013474 seconds 
+  Import took 0.019314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/BrickRocks.mat
+  artifactKey: Guid(7358a3e16a7092648a7deb38db2497b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/BrickRocks.mat using Guid(7358a3e16a7092648a7deb38db2497b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f813378c810b0dd668c8ef006c31c175') in 0.657383 seconds 
+  Import took 0.662834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/DirtBulletDecalMobile.mat
+  artifactKey: Guid(8d9f71b6183f83d469e886d85a7b5b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/DirtBulletDecalMobile.mat using Guid(8d9f71b6183f83d469e886d85a7b5b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d3fdb1223343a1da21993a36703ee1') in 0.049599 seconds 
+  Import took 0.062456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007560 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/PlasterBulletDecalMobile.mat
+  artifactKey: Guid(d2c60787f3bf8c2449788a2e285092ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/PlasterBulletDecalMobile.mat using Guid(d2c60787f3bf8c2449788a2e285092ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35c07c559c46ecabd9d9516aceea227') in 0.053016 seconds 
+  Import took 0.059872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023569 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/GlassDecal.mat
+  artifactKey: Guid(1027d046ed071ec41bc16fd8eb1444a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/GlassDecal.mat using Guid(1027d046ed071ec41bc16fd8eb1444a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69bb1e90daba4707536559bf2be1fd54') in 0.076507 seconds 
+  Import took 0.090930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/GlassMobile.mat
+  artifactKey: Guid(bd9e53147a02c8b4da10082c2b26a634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/GlassMobile.mat using Guid(bd9e53147a02c8b4da10082c2b26a634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f0f1cc46e77b57bdf63855584fe625') in 0.044879 seconds 
+  Import took 0.049353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009901 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/ConcreteDust.mat
+  artifactKey: Guid(9cdfb8becd284304894c384ecd0e04af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/ConcreteDust.mat using Guid(9cdfb8becd284304894c384ecd0e04af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144290827331ea12e30b9118a99d5269') in 0.030615 seconds 
+  Import took 0.038067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001751 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Lazer.mat
+  artifactKey: Guid(53586824c75022c4c96eb5ab2d9686a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Lazer.mat using Guid(53586824c75022c4c96eb5ab2d9686a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73db2f7196c7e5d75a0ec8798031052a') in 0.041917 seconds 
+  Import took 0.066855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018438 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WoodBulletDecal.mat
+  artifactKey: Guid(6647a55f81cf7404f9d314545e1df162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WoodBulletDecal.mat using Guid(6647a55f81cf7404f9d314545e1df162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4371cd429951b2400e836d9d57909501') in 0.345321 seconds 
+  Import took 0.385419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WoodChip.mat
+  artifactKey: Guid(fcafe85c272de6849a646df7ae7aac57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WoodChip.mat using Guid(fcafe85c272de6849a646df7ae7aac57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb57df9861ccf52cdc06e047394efb4') in 0.025118 seconds 
+  Import took 0.074202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpactMobile.mat
+  artifactKey: Guid(d862f18fdd4be8f4ab1f49ee13a04070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpactMobile.mat using Guid(d862f18fdd4be8f4ab1f49ee13a04070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457a92bfea01379f8e408390974ae13c') in 0.111904 seconds 
+  Import took 0.129519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/BrickDust.mat
+  artifactKey: Guid(fa5fcc0dadc85e14e85cbd5fcc8cab58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/BrickDust.mat using Guid(fa5fcc0dadc85e14e85cbd5fcc8cab58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61edb2004ab7298fd53931a7d5e1d363') in 0.028035 seconds 
+  Import took 0.051321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002266 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WoodDust2.mat
+  artifactKey: Guid(1fbf9e9c08749344eafa288a0c6ea38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WoodDust2.mat using Guid(1fbf9e9c08749344eafa288a0c6ea38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150a5e1b8613a82c5108458a3399eeee') in 0.030151 seconds 
+  Import took 0.052366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000699 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpact.mat
+  artifactKey: Guid(f7672510378a2704b960d7648a2d36f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpact.mat using Guid(f7672510378a2704b960d7648a2d36f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2965dfa7d7b3d1924687c5bb2b9f5c') in 0.040769 seconds 
+  Import took 0.045873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Stone.mat
+  artifactKey: Guid(11a70c88e9e6f0044a6e1fa97b4f76f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Stone.mat using Guid(11a70c88e9e6f0044a6e1fa97b4f76f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c45eeaa152a8dc3f0f69acdf9fcaa1') in 0.062101 seconds 
+  Import took 0.066351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WoodBulletDecalMobile.mat
+  artifactKey: Guid(38c67c1d17813e4408068af163e7aa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WoodBulletDecalMobile.mat using Guid(38c67c1d17813e4408068af163e7aa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e14d9bbeac9e4cedce764801bbeda61') in 0.028708 seconds 
+  Import took 0.033929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000827 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/BrickDust 1.mat
+  artifactKey: Guid(b3e6b0173ef0bc843bf7be34fe199367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/BrickDust 1.mat using Guid(b3e6b0173ef0bc843bf7be34fe199367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f179a409c3d870f2ee3563a9ff4eb4f1') in 0.056677 seconds 
+  Import took 0.074701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039324 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/MetalParticles.mat
+  artifactKey: Guid(45a90237eb1b8e74fa79345cd7e3d269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/MetalParticles.mat using Guid(45a90237eb1b8e74fa79345cd7e3d269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a227e315de7b759120261eda8ad3dd') in 0.075224 seconds 
+  Import took 0.097152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002118 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpact 1.mat
+  artifactKey: Guid(3b7b3cb759d368248b5330026e60f155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/WaterImpact 1.mat using Guid(3b7b3cb759d368248b5330026e60f155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7ba1d5a6c8e88b2ffbc32bc6586c64') in 0.036525 seconds 
+  Import took 0.041740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/PlasterBulletDecal.mat
+  artifactKey: Guid(9c9b0e3964979eb4499fa41da211e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/PlasterBulletDecal.mat using Guid(9c9b0e3964979eb4499fa41da211e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418c1eed3fdb082e66629cb4b8f93dfd') in 0.027837 seconds 
+  Import took 0.032687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005576 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/PlasterDust2.mat
+  artifactKey: Guid(2c2617acef6bbf946a195c930a0441f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/PlasterDust2.mat using Guid(2c2617acef6bbf946a195c930a0441f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a638e301d16ea840c7e1969eb99cbb8b') in 0.058235 seconds 
+  Import took 0.068265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026985 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/GlassDecalMobile.mat
+  artifactKey: Guid(bb2dfe4d7954df74a8f2b3210a86d388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/GlassDecalMobile.mat using Guid(bb2dfe4d7954df74a8f2b3210a86d388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b32bfaf956c3138c884e1338e7e0825') in 0.019305 seconds 
+  Import took 0.026155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039865 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/MetalBulletDecal.mat
+  artifactKey: Guid(885fb82a44ec51245873baff6475ee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/MetalBulletDecal.mat using Guid(885fb82a44ec51245873baff6475ee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85451fe3b272a7399a050c99fea9bfb') in 0.267516 seconds 
+  Import took 0.310577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000789 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/RockDust2.mat
+  artifactKey: Guid(972959e63fc1cf047b85a0f7f4a120fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/RockDust2.mat using Guid(972959e63fc1cf047b85a0f7f4a120fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff548c109db563756ff6f39fdf4eb87') in 0.040475 seconds 
+  Import took 0.044563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016677 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/RockDust.mat
+  artifactKey: Guid(be1c24972db7c45478eacf48dcb0fec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/RockDust.mat using Guid(be1c24972db7c45478eacf48dcb0fec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6791bdb9f5be53cd3bd7dd511aee1ac7') in 0.026978 seconds 
+  Import took 0.044548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.532595 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash1.prefab
+  artifactKey: Guid(1f389bb139e76154582cf3c5e4f9214b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash1.prefab using Guid(1f389bb139e76154582cf3c5e4f9214b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c902c4d25aa96d2ff8b6f3486005d5aa') in 1.605325 seconds 
+  Import took 1.830396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114163 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash3.prefab
+  artifactKey: Guid(39b2a3d1ecfa5614b97e75a9b5561f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash3.prefab using Guid(39b2a3d1ecfa5614b97e75a9b5561f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d258761058ccf0d765091c6b94a7a23') in 0.041971 seconds 
+  Import took 0.047452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash7.prefab
+  artifactKey: Guid(a7730127594a3ad46a512f70521a6446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash7.prefab using Guid(a7730127594a3ad46a512f70521a6446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1d8db77626843d8e82ad7af1932a9f') in 1.031434 seconds 
+  Import took 1.036713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.353810 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash4.prefab
+  artifactKey: Guid(8ff371e17619a504b9822fc6a2facdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash4.prefab using Guid(8ff371e17619a504b9822fc6a2facdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d5d7b5b63351c35db7e6ffbd2e3ddd') in 1.549739 seconds 
+  Import took 1.557402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash2.prefab
+  artifactKey: Guid(24bc114e4759e464eab5d9664127a034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash2.prefab using Guid(24bc114e4759e464eab5d9664127a034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bf4810e3b08cdc9ec304baa9a2d030') in 0.692910 seconds 
+  Import took 0.700498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229566 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash9.prefab
+  artifactKey: Guid(35277ee4b65d54d4199c4e0e48053745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash9.prefab using Guid(35277ee4b65d54d4199c4e0e48053745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8f0c8906a1a95853f18f54c338b7be') in 0.355181 seconds 
+  Import took 0.370830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash6.prefab
+  artifactKey: Guid(30902f8af10daa04cabd79e9ef258f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash6.prefab using Guid(30902f8af10daa04cabd79e9ef258f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb66a70e4b06556c6ed642c182fbdf05') in 1.200261 seconds 
+  Import took 1.384213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002772 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash10.prefab
+  artifactKey: Guid(489aba68c9dfe9342accb1f3a0be4e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash10.prefab using Guid(489aba68c9dfe9342accb1f3a0be4e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043944cc7d1624c051ad446cbf3105c5') in 1.604783 seconds 
+  Import took 2.031456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash5.prefab
+  artifactKey: Guid(fa6d29df930056640bf15fb9b6a54e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash5.prefab using Guid(fa6d29df930056640bf15fb9b6a54e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9135f961f364c3218553d39daa709c6b') in 0.099950 seconds 
+  Import took 0.105091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash8.prefab
+  artifactKey: Guid(c69a6f3b834888c468f57ec885c39db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash8.prefab using Guid(c69a6f3b834888c468f57ec885c39db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a479e3d5a6a6019941298732d39386') in 0.036288 seconds 
+  Import took 0.042734 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.039 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2040ms)
+		BeginReloadAssembly (279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1622ms)
+			LoadAssemblies (234ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (615ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (549ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1549 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.7 MB.
+System memory in use after: 76.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2040.
+Total: 4.781200 ms (FindLiveObjects: 0.399900 ms CreateObjectMapping: 0.100100 ms MarkObjects: 4.175100 ms  DeleteObjects: 0.104600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 180.637100 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/FireManager.prefab
+  artifactKey: Guid(a5c7dec046c133a48aae86d411ead237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/FireManager.prefab using Guid(a5c7dec046c133a48aae86d411ead237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784d03fe1062cb59d6d15093ab46f326') in 0.071965 seconds 
+  Import took 0.081366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Lazer.prefab
+  artifactKey: Guid(5473fca427691b14c8eb21a55ef60089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Lazer.prefab using Guid(5473fca427691b14c8eb21a55ef60089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd05243125556ef46a4de5aea1af3c85') in 0.073233 seconds 
+  Import took 0.077222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab
+  artifactKey: Guid(c4bc17078d3097e42844f472849afed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab using Guid(c4bc17078d3097e42844f472849afed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74af40ee95682777b2ab0ada718dc913') in 0.001791 seconds 
+  Import took 0.005086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.085520 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes
+  artifactKey: Guid(4aceb76b4f7939c4bba80ed71f0820ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes using Guid(4aceb76b4f7939c4bba80ed71f0820ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb03c45d7f38bfaf575f73b512e0639d') in 0.002454 seconds 
+  Import took 0.006936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.908792 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts
+  artifactKey: Guid(ddc1bce324dfeb943b108b3d1bba7b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts using Guid(ddc1bce324dfeb943b108b3d1bba7b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7eb5cd343982a8accb08c76b253f30c') in 0.002500 seconds 
+  Import took 0.019971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026491 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/BrickImpact.prefab
+  artifactKey: Guid(e3c9439885f011549a6460a1f4da82dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/BrickImpact.prefab using Guid(e3c9439885f011549a6460a1f4da82dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1112d8f0dc6c481c4cfa98fd56a5aae3') in 0.033080 seconds 
+  Import took 0.041257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/RockImpact.prefab
+  artifactKey: Guid(ce4fb833f44504e48b46c3474bc747fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/RockImpact.prefab using Guid(ce4fb833f44504e48b46c3474bc747fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed62dc5e3a836677f2153a61e9d3eb1e') in 0.024046 seconds 
+  Import took 0.032610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Foliage.prefab
+  artifactKey: Guid(881329b761025854294ebdddc9a44083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Foliage.prefab using Guid(881329b761025854294ebdddc9a44083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c587f17fe6566259bf973a95f352130') in 0.014717 seconds 
+  Import took 0.021238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/PlasterImpact.prefab
+  artifactKey: Guid(ea6cf4c5efb69b94db988e2fbfd72698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/PlasterImpact.prefab using Guid(ea6cf4c5efb69b94db988e2fbfd72698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147831556760cf1d54d1f4b2594c0d23') in 0.032296 seconds 
+  Import took 0.037527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/ConcreteImpact.prefab
+  artifactKey: Guid(547c2e12da8d4214098216299e70a3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/ConcreteImpact.prefab using Guid(547c2e12da8d4214098216299e70a3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151f5aafd3198e75bc89a73dc1898acc') in 0.047428 seconds 
+  Import took 0.051783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/DirtImpact.prefab
+  artifactKey: Guid(df6885b13dec8be4582be8c2c2219da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/DirtImpact.prefab using Guid(df6885b13dec8be4582be8c2c2219da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929fe0d17833e26a4dea21f83dcfbc7f') in 0.025632 seconds 
+  Import took 0.030107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/WaterImpact.prefab
+  artifactKey: Guid(3dc518bed1b2ee14481a2a155c19da18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/WaterImpact.prefab using Guid(3dc518bed1b2ee14481a2a155c19da18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc549268d50ca07c86d3b8ff008e2ce') in 0.016549 seconds 
+  Import took 0.021172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/WoodImpact.prefab
+  artifactKey: Guid(c75e5a4fa5c842546a553399e24eb22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/WoodImpact.prefab using Guid(c75e5a4fa5c842546a553399e24eb22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f59222b1f351bdb937cbea1561ebfaf') in 0.023093 seconds 
+  Import took 0.028051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/GlassImpact.prefab
+  artifactKey: Guid(93983eaa39ee5d4408c0b10200e234b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/GlassImpact.prefab using Guid(93983eaa39ee5d4408c0b10200e234b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5bc07f2d8f8f2bc5a73ee0e60933e0') in 0.019093 seconds 
+  Import took 0.025106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/MetalImpact.prefab
+  artifactKey: Guid(697d9a1e52bb99d468a5d727e5a4b435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/MetalImpact.prefab using Guid(697d9a1e52bb99d468a5d727e5a4b435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22af59eecdde06506d24cd070ad72c4') in 0.027090 seconds 
+  Import took 0.031952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.021979 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Stone1.FBX
+  artifactKey: Guid(76f5f44cf3cb76b42ba348d06887c572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Stone1.FBX using Guid(76f5f44cf3cb76b42ba348d06887c572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61509ac5d10290eb266512484e6a5eb2') in 0.393841 seconds 
+  Import took 0.398487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.950725 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/WoodChips.FBX
+  artifactKey: Guid(5b83d8d97da07904baf776d898d49546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/WoodChips.FBX using Guid(5b83d8d97da07904baf776d898d49546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380bb08888ee94fd38f291e152a61ca2') in 0.041033 seconds 
+  Import took 0.045489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.646286 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Muzzle/Flame1.mat
+  artifactKey: Guid(ff688eedc16ccf84898bb6c02adb2cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Muzzle/Flame1.mat using Guid(ff688eedc16ccf84898bb6c02adb2cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79f4744764f4bb8eafd4fa8c98bc105') in 0.031186 seconds 
+  Import took 0.036393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.923103 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Muzzle/Smoke.mat
+  artifactKey: Guid(4b928217dca4f6d49bfebd1f28e76810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Muzzle/Smoke.mat using Guid(4b928217dca4f6d49bfebd1f28e76810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a700d71c2f37fe3f31f7f089bf6d5e') in 0.060587 seconds 
+  Import took 0.065976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.473957 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Muzzle/MuzzleFlash2.mat
+  artifactKey: Guid(69640fab16b3989488a58d82744903e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Muzzle/MuzzleFlash2.mat using Guid(69640fab16b3989488a58d82744903e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62259339f6401678afef83b78450ee9f') in 0.016606 seconds 
+  Import took 0.021973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.645221 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Muzzle/Distortion.mat
+  artifactKey: Guid(fe6340b58e4dde441ae5c35ea7ff93b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Muzzle/Distortion.mat using Guid(fe6340b58e4dde441ae5c35ea7ff93b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82af9b2a180c382adefbae8f794cf54') in 0.012647 seconds 
+  Import took 0.040157 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006293 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.015 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2016ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1660ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (633ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (567ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (417ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1540 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2048.
+Total: 4.257400 ms (FindLiveObjects: 0.365700 ms CreateObjectMapping: 0.085700 ms MarkObjects: 3.703500 ms  DeleteObjects: 0.100800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 319.402327 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Scripts/FPS_Decal.cs
+  artifactKey: Guid(22b81bf1b22fe3e44ab916ed01617439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Scripts/FPS_Decal.cs using Guid(22b81bf1b22fe3e44ab916ed01617439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4727175620ae3c2d0854e45270ef075') in 0.017845 seconds 
+  Import took 0.023162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.529481 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Scripts/Rendering
+  artifactKey: Guid(3c12873adb8079746ae150df24be3bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Scripts/Rendering using Guid(3c12873adb8079746ae150df24be3bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b4e4d18ee4f9a3cf21d737ae4e1c7b') in 0.002748 seconds 
+  Import took 0.007549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.359211 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Scripts/Demo
+  artifactKey: Guid(3dcc5118d03ee8b4f971619c4469b6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Scripts/Demo using Guid(3dcc5118d03ee8b4f971619c4469b6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c148d6cbc74d492954664f9f2ecf39') in 0.002698 seconds 
+  Import took 0.031459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.769046 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Scripts/FPSLightCurves.cs
+  artifactKey: Guid(22b1c2a9f789e3e47a7c58fa60e17e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Scripts/FPSLightCurves.cs using Guid(22b1c2a9f789e3e47a7c58fa60e17e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c17a4bbd7eae89309282c3dd6c35a7') in 0.002473 seconds 
+  Import took 0.006768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.776628 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Muzzle/MuzzleFlash1.mat
+  artifactKey: Guid(b25a339ea4220f644bdbd5db1631fea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Effects/Muzzle/MuzzleFlash1.mat using Guid(b25a339ea4220f644bdbd5db1631fea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b38c5949a352eaa3d45aee2d7652f43') in 0.093335 seconds 
+  Import took 0.098030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.166706 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Scripts
+  artifactKey: Guid(606bd732562348d4f86a0584bf5cceaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Scripts using Guid(606bd732562348d4f86a0584bf5cceaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a00f365fa113f0e9759a10c5637cd7') in 0.002805 seconds 
+  Import took 0.007291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.750052 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Scripts/Demo/FPS_MouseLook.cs
+  artifactKey: Guid(2cc0a6f92d3efde4aabc9846e045bf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Scripts/Demo/FPS_MouseLook.cs using Guid(2cc0a6f92d3efde4aabc9846e045bf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379f3611dc3b0a15198637557239229e') in 0.002464 seconds 
+  Import took 0.006620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.556417 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Scripts/Demo/FPS_RigidbodyFirstPersonController.cs
+  artifactKey: Guid(997d5c5b9fd92be40b18fa45ceb37020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Scripts/Demo/FPS_RigidbodyFirstPersonController.cs using Guid(997d5c5b9fd92be40b18fa45ceb37020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e0cb3664164128937ca74b24d065de') in 0.002435 seconds 
+  Import took 0.006386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.407596 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Scripts/Demo/FPSDemoGUI.cs
+  artifactKey: Guid(7f44a7ad42765c94b896425517325f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Scripts/Demo/FPSDemoGUI.cs using Guid(7f44a7ad42765c94b896425517325f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2852c5f71c6539c464cba1fa5fbf9f1f') in 0.002464 seconds 
+  Import took 0.229238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111057 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Scripts/Demo/FPSDemoReactivator.cs
+  artifactKey: Guid(77e369a1e74c2d84ead64ef026b1c433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Scripts/Demo/FPSDemoReactivator.cs using Guid(77e369a1e74c2d84ead64ef026b1c433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b1bdc30ef27dc4d04db675568a0e49') in 0.003217 seconds 
+  Import took 0.007147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.313892 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Scripts/Demo/FPSFireManager.cs
+  artifactKey: Guid(eabaea637d046b649916223ab9952a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Scripts/Demo/FPSFireManager.cs using Guid(eabaea637d046b649916223ab9952a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2ca516016d65c96e5cb6c511a499c8') in 0.002094 seconds 
+  Import took 0.005876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.240459 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/MobileDemo.unity
+  artifactKey: Guid(da8f6927f8c6a804fbb5702217a5ef35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/MobileDemo.unity using Guid(da8f6927f8c6a804fbb5702217a5ef35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7884e92f44b953d53cbc4485aeecba75') in 0.003443 seconds 
+  Import took 0.008251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.926504 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Readme.rtf
+  artifactKey: Guid(3f67fe11173de2745b9e1840b727cab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Readme.rtf using Guid(3f67fe11173de2745b9e1840b727cab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e04a71ccac0a61e7d8900b9780d1e71') in 0.012893 seconds 
+  Import took 0.031883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.269787 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures
+  artifactKey: Guid(50f4938f86b783d42be26a0cdb81fccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures using Guid(50f4938f86b783d42be26a0cdb81fccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae2cb440a8231e9c0bd78674bd3e5f0') in 0.034929 seconds 
+  Import took 0.062246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.982275 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene
+  artifactKey: Guid(dcd498c2645826340adee9442ecc9f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene using Guid(dcd498c2645826340adee9442ecc9f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ded758e52158b40aaa6ff6ecc6d2450') in 0.003708 seconds 
+  Import took 0.442697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/CalibrationFloorDiffuse 1.tif
+  artifactKey: Guid(36850c06a79f59d4b85528775ed3b138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/CalibrationFloorDiffuse 1.tif using Guid(36850c06a79f59d4b85528775ed3b138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1968cc47959923a4bf9e31b318b12e14') in 1.513730 seconds 
+  Import took 1.518488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Bark.png
+  artifactKey: Guid(f72c4b4da5388eb4e96b9bf942c00d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Bark.png using Guid(f72c4b4da5388eb4e96b9bf942c00d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3494ddee8ad96b3b1f611bb88fa9f2') in 0.020149 seconds 
+  Import took 1.470327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025898 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/PlasterNormal.png
+  artifactKey: Guid(223a9cea1c9cc5747ada55db8b6db7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/PlasterNormal.png using Guid(223a9cea1c9cc5747ada55db8b6db7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9539909b4b75a85dd2b609a70a90be74') in 3.423262 seconds 
+  Import took 4.787781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WaterSplash.png
+  artifactKey: Guid(fc0eaa7b89cee214192267a014afa9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WaterSplash.png using Guid(fc0eaa7b89cee214192267a014afa9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdc6225abe253cf26f57292fdc05c4a') in 0.021354 seconds 
+  Import took 0.026338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Leaf.png
+  artifactKey: Guid(19ebabbe21ca23943b7746dd20654c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Leaf.png using Guid(19ebabbe21ca23943b7746dd20654c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5e2a573cef40be9cf5a08264051a1d') in 0.012819 seconds 
+  Import took 0.017664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Smoke.png
+  artifactKey: Guid(48af1e7e9ad75854fb31851af8accf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Smoke.png using Guid(48af1e7e9ad75854fb31851af8accf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997fcb8a8f247c6dd2ba2e19e7841ef6') in 0.016532 seconds 
+  Import took 0.022277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Stone.png
+  artifactKey: Guid(f1397a0ff96dfd2439aa1414eaf24a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Stone.png using Guid(f1397a0ff96dfd2439aa1414eaf24a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7138691fe9fda41cd3971a485baf4886') in 0.022970 seconds 
+  Import took 1.309726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.067920 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Falloff2.png
+  artifactKey: Guid(d85dd1aa919c04c44bbf086e0b0b3412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Falloff2.png using Guid(d85dd1aa919c04c44bbf086e0b0b3412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f681758aa0c51d8d472b6a8a877ec4') in 0.115337 seconds 
+  Import took 0.122807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact
+  artifactKey: Guid(9dbc20c515887b04a9b84c31251e2441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact using Guid(9dbc20c515887b04a9b84c31251e2441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1a5d89a774dc9570f7a2e93beb1615') in 0.007727 seconds 
+  Import took 0.074318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224681 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WaterSplashNormal.png
+  artifactKey: Guid(9976a6ef4dcbe0c49a228ee96ee74ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WaterSplashNormal.png using Guid(9976a6ef4dcbe0c49a228ee96ee74ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22307358b11419b59955e4753194445d') in 0.133579 seconds 
+  Import took 0.514602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014379 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/SmokeTrails.png
+  artifactKey: Guid(e87332c7325a0de47abc048d2c199854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/SmokeTrails.png using Guid(e87332c7325a0de47abc048d2c199854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1703d7f1ab5c0f4c87b9489e0d8710b8') in 0.483185 seconds 
+  Import took 0.489290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Particle.png
+  artifactKey: Guid(25d080f4d7d74054fa233aadfcf87f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Particle.png using Guid(25d080f4d7d74054fa233aadfcf87f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13efcc1b8e4f97777541a57b9eccbf7a') in 0.009470 seconds 
+  Import took 0.014587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Plaster.png
+  artifactKey: Guid(e3c3272763d392c459c31100ac49ac68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Plaster.png using Guid(e3c3272763d392c459c31100ac49ac68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c0ebb1346977c5cf5cef801eccd8bd') in 0.273980 seconds 
+  Import took 0.278275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009956 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/GlassDiffuse.png
+  artifactKey: Guid(4f0efc0c330b06c41816927ae0e1a20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/GlassDiffuse.png using Guid(4f0efc0c330b06c41816927ae0e1a20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36684f5adcbfe8f11bd257ec6ce03618') in 0.134945 seconds 
+  Import took 0.140696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Dirt.png
+  artifactKey: Guid(4b9e3385649285d43a9a695b28096f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Dirt.png using Guid(4b9e3385649285d43a9a695b28096f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5ec94f5263d7468ecaedac03b20ef3') in 0.010481 seconds 
+  Import took 0.015012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/WaterBottom.png
+  artifactKey: Guid(14a8ad738a6f82a409291d42be10de2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/WaterBottom.png using Guid(14a8ad738a6f82a409291d42be10de2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef5775783b4cfea7eb98618f0f69b07') in 0.011007 seconds 
+  Import took 0.014784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WoodDecal2.png
+  artifactKey: Guid(c3fdfdf2665dd3c438576be367e7844c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WoodDecal2.png using Guid(c3fdfdf2665dd3c438576be367e7844c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3600ed7cdcd919de267f5b32f9442272') in 0.012666 seconds 
+  Import took 0.017002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Foliage.png
+  artifactKey: Guid(9435d25d408717643b4ecca1baa9ef68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Foliage.png using Guid(9435d25d408717643b4ecca1baa9ef68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf8d97f7a585e1b9a3897314d0cad75') in 0.010083 seconds 
+  Import took 0.027568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/glassbump.tif
+  artifactKey: Guid(4b8d081e9d114c7f1100f5ab44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/glassbump.tif using Guid(4b8d081e9d114c7f1100f5ab44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce82f2c02202d70161c9bd0c62751631') in 0.011944 seconds 
+  Import took 0.015989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/WaterBottomNormal.png
+  artifactKey: Guid(5de6f07168a43504ebcca50d885273ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/WaterBottomNormal.png using Guid(5de6f07168a43504ebcca50d885273ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1937d06f1dcaaf1ef230117918ddf053') in 0.012461 seconds 
+  Import took 0.018089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WoodChipTexture.png
+  artifactKey: Guid(d9277ed7e6f7f444ab6a1c999f75e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WoodChipTexture.png using Guid(d9277ed7e6f7f444ab6a1c999f75e75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8aee1d3c32f9333bec802234b40dc4') in 0.012800 seconds 
+  Import took 0.017532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Splash01Mid_6x5_lum.png
+  artifactKey: Guid(df1ec0f146d570a4b8bec0452b45598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Splash01Mid_6x5_lum.png using Guid(df1ec0f146d570a4b8bec0452b45598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1712cb474bce2f4331e989380c63772e') in 0.039588 seconds 
+  Import took 0.044715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Splashes_normal.png
+  artifactKey: Guid(14eef8247fc290746841a6edecaf6784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Splashes_normal.png using Guid(14eef8247fc290746841a6edecaf6784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939e66963c73e84650e3253d460129b7') in 0.012319 seconds 
+  Import took 0.017463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Dust2.png
+  artifactKey: Guid(6fc78cafdc55e3c499cb1453cbd93dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Dust2.png using Guid(6fc78cafdc55e3c499cb1453cbd93dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda28ab6e997a02a05d708566a6a1046') in 0.019153 seconds 
+  Import took 0.023180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/BrokenGlassDecal.png
+  artifactKey: Guid(89608fa0394dd264793f98280d5716ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/BrokenGlassDecal.png using Guid(89608fa0394dd264793f98280d5716ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb50967f566672eeb532bcc22940276') in 0.010455 seconds 
+  Import took 0.014843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/BrickNormal.png
+  artifactKey: Guid(d67572dbf38f85045b72aadfc718941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/BrickNormal.png using Guid(d67572dbf38f85045b72aadfc718941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f3e1d839fed5c736add8be3f90a263') in 0.012480 seconds 
+  Import took 0.017639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Concrete.png
+  artifactKey: Guid(2cc8de10851ef87409f8a9a530ed5334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Concrete.png using Guid(2cc8de10851ef87409f8a9a530ed5334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039a7a1ee15acf6dc7109968de8c2365') in 0.012425 seconds 
+  Import took 0.020526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Brick.png
+  artifactKey: Guid(45c433811103fb74299cb39cb15a8e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Brick.png using Guid(45c433811103fb74299cb39cb15a8e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf46ce286e073db46d3359ba1380f74c') in 0.013229 seconds 
+  Import took 0.017831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/BarkNormal.png
+  artifactKey: Guid(e8ce0c05d1961824396709e0efba9149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/BarkNormal.png using Guid(e8ce0c05d1961824396709e0efba9149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031032ddc3fd3fc7fb5bd62bd5f41947') in 0.012386 seconds 
+  Import took 0.016431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Concrete.png
+  artifactKey: Guid(39b5a1917684f6c4fa0e7ae836fad173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Concrete.png using Guid(39b5a1917684f6c4fa0e7ae836fad173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0d22eeac16061e54e6abe721426d0f') in 0.011802 seconds 
+  Import took 0.016151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Rock2_nm.png
+  artifactKey: Guid(148ec0a7e02cf6d4598fbadbc8ddcecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Rock2_nm.png using Guid(148ec0a7e02cf6d4598fbadbc8ddcecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3321d2706aef8e93b4d881405f8772e1') in 0.013689 seconds 
+  Import took 0.026768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000907 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Lazer.png
+  artifactKey: Guid(7a07647b3f400484481c6ee730d55b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Lazer.png using Guid(7a07647b3f400484481c6ee730d55b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4c0784a4cea93d42b1373abdb85b1e') in 0.009830 seconds 
+  Import took 0.014314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Dust1.png
+  artifactKey: Guid(f61bae6a25da12444bc92b962d9545cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Dust1.png using Guid(f61bae6a25da12444bc92b962d9545cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6375733a36bd13070347f69088ffa864') in 0.014500 seconds 
+  Import took 0.089145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/DirtBulletDecal2.png
+  artifactKey: Guid(f2a8ce770f9745047ae3b51ac03e8497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/DirtBulletDecal2.png using Guid(f2a8ce770f9745047ae3b51ac03e8497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425f4eba4171db6288ec8d229363e4c8') in 0.013671 seconds 
+  Import took 0.019957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/WaterNorm.png
+  artifactKey: Guid(b0979c3b62a9e3640a153c8e5b6bdc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/WaterNorm.png using Guid(b0979c3b62a9e3640a153c8e5b6bdc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2297b3d96c955fd283554f39bbb274') in 0.012601 seconds 
+  Import took 0.035847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Rocks.png
+  artifactKey: Guid(8515154a53ac9224cad8daf79a86f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Rocks.png using Guid(8515154a53ac9224cad8daf79a86f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb025708a2722321b29b91e5924e3b4') in 0.015444 seconds 
+  Import took 0.022181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/ConcreteNormal.png
+  artifactKey: Guid(947ed4d3c489be14eac9f3d887c5882b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/ConcreteNormal.png using Guid(947ed4d3c489be14eac9f3d887c5882b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3322aab084a760117d1940e198e3e3d9') in 0.011507 seconds 
+  Import took 0.016003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects
+  artifactKey: Guid(1e5f91b971dfcab46bf4b20b21fcb60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects using Guid(1e5f91b971dfcab46bf4b20b21fcb60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dcf8b0be26a745ed5980ccaeb59bce') in 0.003644 seconds 
+  Import took 0.008005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/glass.tif
+  artifactKey: Guid(19555d7d9d114c7f1100f5ab44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/glass.tif using Guid(19555d7d9d114c7f1100f5ab44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ba71b9a83da638d1fd80c8671474ba') in 0.014958 seconds 
+  Import took 0.019547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Rock.png
+  artifactKey: Guid(5d403197d4d9c0b4b99e68b92af1fb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Rock.png using Guid(5d403197d4d9c0b4b99e68b92af1fb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21a6b9cc2a59b39955ee8666e3ea4c7') in 0.011989 seconds 
+  Import took 0.023695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WaterDropMobile.png
+  artifactKey: Guid(29748b261d55e0c40acdbc7ad80e6b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WaterDropMobile.png using Guid(29748b261d55e0c40acdbc7ad80e6b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0efb0fdda7561c935af8e74ba232b2') in 0.012063 seconds 
+  Import took 0.016558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/BrickBulletDecal3.png
+  artifactKey: Guid(135d2dc6898fa804cb4c8b516b3587fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/BrickBulletDecal3.png using Guid(135d2dc6898fa804cb4c8b516b3587fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bde1f1f7ee640432bffc0404d2b85a') in 0.013172 seconds 
+  Import took 0.059858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/MetalBulletDecal.png
+  artifactKey: Guid(77790bc3f765be74096f0b66c7970fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/MetalBulletDecal.png using Guid(77790bc3f765be74096f0b66c7970fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762a716a29e929c0aba8f3174accabb5') in 0.010484 seconds 
+  Import took 0.015339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WaterSplashMobile.png
+  artifactKey: Guid(be777cde00d6a264ca6fc00d16f0d2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WaterSplashMobile.png using Guid(be777cde00d6a264ca6fc00d16f0d2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433646b4125313b42782cb7b1b1018d2') in 0.014644 seconds 
+  Import took 0.018929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/DirtBulletDecal3.png
+  artifactKey: Guid(83cbc92a9bae4a54eafe2d05e15fe57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/DirtBulletDecal3.png using Guid(83cbc92a9bae4a54eafe2d05e15fe57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071d0b6fe22657386ab1328f523310bf') in 0.016577 seconds 
+  Import took 0.021048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WaterDropNormal.png
+  artifactKey: Guid(2e3564e0e993d2045b19dd97b7ad1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/WaterDropNormal.png using Guid(2e3564e0e993d2045b19dd97b7ad1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7800d2d71af3d6e07261ea5cb953b7') in 0.014325 seconds 
+  Import took 0.020498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/BrickDisplacement.png
+  artifactKey: Guid(4192db5c14c29d04c9478b86c15956d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/BrickDisplacement.png using Guid(4192db5c14c29d04c9478b86c15956d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cc2d5b37b13789be179cac163e6959') in 0.010394 seconds 
+  Import took 0.014916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/RockNroaml.png
+  artifactKey: Guid(f92e557c0f9a974489804407d78f6666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/RockNroaml.png using Guid(f92e557c0f9a974489804407d78f6666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8626e07e8f97d4bb65583dce61340bc7') in 0.016234 seconds 
+  Import took 0.021554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/GlassNormal.png
+  artifactKey: Guid(4108ded8c83045b4d8814320f7c328e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/GlassNormal.png using Guid(4108ded8c83045b4d8814320f7c328e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38cd489232cd85cffb27cdd6c939adc7') in 0.012479 seconds 
+  Import took 0.017278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/IceNormal.png
+  artifactKey: Guid(21007bf4fcaa6cc45afc79e69d923ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/IceNormal.png using Guid(21007bf4fcaa6cc45afc79e69d923ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94d96c3f33a81159b9c1ade941a6e37') in 0.016471 seconds 
+  Import took 0.021079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Metal.png
+  artifactKey: Guid(effcae09d18405747a7d4ccadb7d784b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Metal.png using Guid(effcae09d18405747a7d4ccadb7d784b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ce92a013184c996cd714f96d81d45f') in 0.016895 seconds 
+  Import took 0.021181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/DirtNormal.png
+  artifactKey: Guid(ba115ac1663834a4e87849ec95a6c30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/DirtNormal.png using Guid(ba115ac1663834a4e87849ec95a6c30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1e8bf670a3895be297a16ee3d15d86') in 0.012201 seconds 
+  Import took 0.016806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Glass2.png
+  artifactKey: Guid(befa2683ab2b9a84883fef861e0bcbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Glass2.png using Guid(befa2683ab2b9a84883fef861e0bcbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ea6978df33d585c55bd7a500aa60f9') in 0.045072 seconds 
+  Import took 0.050021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Plaster.png
+  artifactKey: Guid(2c41569ace8c5d34f815def47577502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Scene/Plaster.png using Guid(2c41569ace8c5d34f815def47577502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe299a2ba87cde0ca6a7023185075317') in 0.011963 seconds 
+  Import took 0.016314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Rock2.png
+  artifactKey: Guid(24336ed13b488304cb67a60a58b9b493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Impact/Rock2.png using Guid(24336ed13b488304cb67a60a58b9b493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7d77a77923aeaec090f34c53fb0192') in 0.012053 seconds 
+  Import took 0.017141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.084966 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle
+  artifactKey: Guid(ae38fe16fc7657b4db4ecad6710ef123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle using Guid(ae38fe16fc7657b4db4ecad6710ef123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbbed0bff7d91c89c1ebc567042d6a9') in 0.004949 seconds 
+  Import took 0.009300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041280 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/Distortion2.png
+  artifactKey: Guid(2e09aa0f3dcb3b14f952250eb45aec89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/Distortion2.png using Guid(2e09aa0f3dcb3b14f952250eb45aec89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1505bd82e55b032229638a8240dc0a03') in 0.009057 seconds 
+  Import took 0.015686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash5.png
+  artifactKey: Guid(a8121e7fd0f941a4c9aa4d357e710af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash5.png using Guid(a8121e7fd0f941a4c9aa4d357e710af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e8e06ba043e81005494dfcb374966f') in 0.009876 seconds 
+  Import took 0.013652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/Flame2.png
+  artifactKey: Guid(0965214d4ad207344bc3d582dd5d75eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/Flame2.png using Guid(0965214d4ad207344bc3d582dd5d75eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7598da10768abc8fd87da53ccfa0187') in 0.010410 seconds 
+  Import took 0.015254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash9.png
+  artifactKey: Guid(a98d5c51bd827044a8687c17a85bdb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash9.png using Guid(a98d5c51bd827044a8687c17a85bdb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3da8af8f161225d43c071961619e22') in 0.012869 seconds 
+  Import took 0.017236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash7.png
+  artifactKey: Guid(8d1ce7a864259b343ae63d7edb6882fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash7.png using Guid(8d1ce7a864259b343ae63d7edb6882fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14612509e3a864266a441b9bf69af040') in 0.010398 seconds 
+  Import took 0.014632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/Flame3.png
+  artifactKey: Guid(33e548cc0d8d3e548930ac0430253102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/Flame3.png using Guid(33e548cc0d8d3e548930ac0430253102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9e88ae3407c8aed9ba6935956138a5') in 0.009746 seconds 
+  Import took 0.013876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash8.png
+  artifactKey: Guid(af5ba9e5a805d7f42a64fa287e245c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash8.png using Guid(af5ba9e5a805d7f42a64fa287e245c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69276248f3ddd9edd99f45408a1097f4') in 0.012221 seconds 
+  Import took 0.016215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash3.png
+  artifactKey: Guid(2093d3963d18dc74fb87a1595e8c879f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash3.png using Guid(2093d3963d18dc74fb87a1595e8c879f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d913ac56aff7303cf90112e1d5a4f42') in 0.011025 seconds 
+  Import took 0.015318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash1.png
+  artifactKey: Guid(4365886b980d70747adba9a1b75babad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash1.png using Guid(4365886b980d70747adba9a1b75babad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753351b4b34e7a2b6a4450080a0b0f4c') in 0.009308 seconds 
+  Import took 0.013643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/Flame4.png
+  artifactKey: Guid(6ad4f16f6be071e4e8f7584a31d1af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/Flame4.png using Guid(6ad4f16f6be071e4e8f7584a31d1af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8816736909f35a536c7c0e884c10650') in 0.009484 seconds 
+  Import took 0.013112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash4.png
+  artifactKey: Guid(7772c1b4715d18345adea75ca458647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash4.png using Guid(7772c1b4715d18345adea75ca458647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bb1ded82506e9d44d2c9e67a328e52') in 0.009373 seconds 
+  Import took 0.063525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash6.png
+  artifactKey: Guid(f990de8fc5dd1634f982b6fb47718e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash6.png using Guid(f990de8fc5dd1634f982b6fb47718e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9d56db3fcc1374aa086281de31e787') in 0.014233 seconds 
+  Import took 0.018926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash2.png
+  artifactKey: Guid(dd3a267009de8524b9061d4a50fc36ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/MuzzleFlash2.png using Guid(dd3a267009de8524b9061d4a50fc36ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7870182f6f1f94ce920b4ea7fae09319') in 0.009562 seconds 
+  Import took 0.014004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/Flame1.png
+  artifactKey: Guid(36977a04235fdf94b9d0b9e800c72636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Textures/Effects/Muzzle/Flame1.png using Guid(36977a04235fdf94b9d0b9e800c72636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33808f3c285c5dcccd3ee75aafc34b35') in 0.011188 seconds 
+  Import took 0.015559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.502545 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/HDRP and URP patches
+  artifactKey: Guid(ed0b4115a80a43743b52412cd39da4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/HDRP and URP patches using Guid(ed0b4115a80a43743b52412cd39da4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac721b1f2d5503ef9a7d9a0de8646dd') in 0.003673 seconds 
+  Import took 0.008997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.276050 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Materials/Scene
+  artifactKey: Guid(f246a0361714f5949b92dd33d94ab47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Materials/Scene using Guid(f246a0361714f5949b92dd33d94ab47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8186252969e221bd3a698023c1bc3901') in 0.002312 seconds 
+  Import took 0.006705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.593132 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(fa231d89fe32c394e97d62662d91b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(fa231d89fe32c394e97d62662d91b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c360d387d6eefdfb57db9ec7cde898') in 0.003298 seconds 
+  Import took 0.008121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.816391 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.004508 seconds 
+  Import took 0.008887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.281897 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models
+  artifactKey: Guid(ec281a87977a57047990d0a1d458f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models using Guid(ec281a87977a57047990d0a1d458f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5979f0434a4f999c64154457ffba4f') in 0.100193 seconds 
+  Import took 0.104801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.821339 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile
+  artifactKey: Guid(e96ce09b497276841a1767cfb238097c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile using Guid(e96ce09b497276841a1767cfb238097c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9894a99aebef217b97a61050fd7bfd') in 0.002817 seconds 
+  Import took 0.007471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055190 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/BrickImpact.prefab
+  artifactKey: Guid(e70de6a15623744499bf326c13e310f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/BrickImpact.prefab using Guid(e70de6a15623744499bf326c13e310f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e6714ca74106db95f8c085ba15e57f') in 0.049665 seconds 
+  Import took 0.054745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/ConcreteImpact.prefab
+  artifactKey: Guid(e4ed01af280d76248a9d0e72030c40c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/ConcreteImpact.prefab using Guid(e4ed01af280d76248a9d0e72030c40c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052a5c5c00770548a66e80b670198452') in 0.023123 seconds 
+  Import took 0.027845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/PlasterImpact.prefab
+  artifactKey: Guid(70293ccb9b36ad84ebb90509a675fc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/PlasterImpact.prefab using Guid(70293ccb9b36ad84ebb90509a675fc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4781456db662fd404b4830e83706d8a1') in 0.028026 seconds 
+  Import took 0.032655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/DirtImpact.prefab
+  artifactKey: Guid(1fad06db51ffb86458cb3de2b4fc05c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/DirtImpact.prefab using Guid(1fad06db51ffb86458cb3de2b4fc05c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e89c237a7507aba1bf420793e553e6') in 0.051156 seconds 
+  Import took 0.546390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/RockImpact.prefab
+  artifactKey: Guid(f9c851a5a12292f4d9a24acc3899803b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/RockImpact.prefab using Guid(f9c851a5a12292f4d9a24acc3899803b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521c17c33a35477570ff2acca79e1aff') in 0.020561 seconds 
+  Import took 0.045747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/GlassImpact.prefab
+  artifactKey: Guid(92422eb8369387a41a9a6259935757ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/GlassImpact.prefab using Guid(92422eb8369387a41a9a6259935757ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0e15559b0c1d753d17b4f4bda6f65b') in 0.018768 seconds 
+  Import took 0.023404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/MetalImpact.prefab
+  artifactKey: Guid(52aa1f2e1567b6e47b50df0d054982a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/MetalImpact.prefab using Guid(52aa1f2e1567b6e47b50df0d054982a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a40ede4b0586f9c8e687dd43ec9ba83') in 0.026436 seconds 
+  Import took 0.031863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/WaterImpact.prefab
+  artifactKey: Guid(8f2fb118e4280164e90e13f92ad21c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/WaterImpact.prefab using Guid(8f2fb118e4280164e90e13f92ad21c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230be5ac318cb83ecfde62689a809657') in 0.016557 seconds 
+  Import took 0.021970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/WoodImpact.prefab
+  artifactKey: Guid(4fbc0156e9dd2ab41a17e56a2f515d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/WoodImpact.prefab using Guid(4fbc0156e9dd2ab41a17e56a2f515d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0aceb70457531884640f12499c8002d') in 0.024887 seconds 
+  Import took 0.029976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/Foliage.prefab
+  artifactKey: Guid(50165a7e39a936f44ab5b824429e3417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/Foliage.prefab using Guid(50165a7e39a936f44ab5b824429e3417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fd750b90a2dab0581f15079a1dd83a') in 0.015034 seconds 
+  Import took 0.020335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.386029 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1.spm
+  artifactKey: Guid(88cc7cbf555feef42ae8172fbd501537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1.spm using Guid(88cc7cbf555feef42ae8172fbd501537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232fe8250eaa9e321cf5b9caeb82d3f0') in 3.031763 seconds 
+  Import took 3.037151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Rocks.FBX
+  artifactKey: Guid(1ab28a85968f621429d6eecd53d09edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Rocks.FBX using Guid(1ab28a85968f621429d6eecd53d09edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7e5010c63aef7689a11228224eb133') in 0.040734 seconds 
+  Import took 0.044604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/StarPrimitives.FBX
+  artifactKey: Guid(7b261dca1856cee44a16ae7d866c69be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/StarPrimitives.FBX using Guid(7b261dca1856cee44a16ae7d866c69be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafee61167ff95c8336aee18c14e68ca') in 0.103834 seconds 
+  Import took 0.108014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Plaster.FBX
+  artifactKey: Guid(01511ec7f06a5e24bbbdc03ee5fbeec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Plaster.FBX using Guid(01511ec7f06a5e24bbbdc03ee5fbeec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18c3d69b675944627bd62fe38f1cdbf') in 0.043840 seconds 
+  Import took 0.047522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/SphereHalfLowPoly2.FBX
+  artifactKey: Guid(fe086743cbc4e0b499c6a4d093186ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/SphereHalfLowPoly2.FBX using Guid(fe086743cbc4e0b499c6a4d093186ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c56e9ea9f32182e432fbbc216d5418') in 0.049829 seconds 
+  Import took 0.053436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/SphereQuad.FBX
+  artifactKey: Guid(a3f544b8cc219b443b215087de36d8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/SphereQuad.FBX using Guid(a3f544b8cc219b443b215087de36d8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a42a458c8732cd5313083b0e5146e39') in 0.019270 seconds 
+  Import took 0.022947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Leaf.FBX
+  artifactKey: Guid(15d991c4374ec264c9955c17701631ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Leaf.FBX using Guid(15d991c4374ec264c9955c17701631ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef6a7b6058d974c37a389d646b1b243') in 0.020097 seconds 
+  Import took 0.024188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Glass3.FBX
+  artifactKey: Guid(c8a934e2cd4ef9647856fe98884ce572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Glass3.FBX using Guid(c8a934e2cd4ef9647856fe98884ce572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d7eadb3eed1569a0150353f4ed6e6a') in 0.097173 seconds 
+  Import took 0.101269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Demo
+  artifactKey: Guid(05811cd44b7bbae479485f3a7e827048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Demo using Guid(05811cd44b7bbae479485f3a7e827048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507eaf67ccd91885146e00d6d37825f5') in 0.001555 seconds 
+  Import took 0.004706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/MuzzleFlashCone.FBX
+  artifactKey: Guid(75ece0dab22f9a144a1d2f582735de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/MuzzleFlashCone.FBX using Guid(75ece0dab22f9a144a1d2f582735de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd94fb02e76b2ca57a7eaa6f4ff03654') in 0.074833 seconds 
+  Import took 0.078538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.902593 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Demo/M4A1 Sopmod.fbx
+  artifactKey: Guid(fddeeac0ebed86c4cab4320764b5c227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Demo/M4A1 Sopmod.fbx using Guid(fddeeac0ebed86c4cab4320764b5c227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50a89824cb587fe31bb97388d413815') in 0.120125 seconds 
+  Import took 0.125171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Demo/SM_Base2.FBX
+  artifactKey: Guid(b57929ed01451c84aab56258b5f2fd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Demo/SM_Base2.FBX using Guid(b57929ed01451c84aab56258b5f2fd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb5092e456bfe5cafe1aa61b3233ea2') in 0.040352 seconds 
+  Import took 0.044762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Demo/SM_Base.FBX
+  artifactKey: Guid(4b43b7dbb81369249ae7ea284056abf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Demo/SM_Base.FBX using Guid(4b43b7dbb81369249ae7ea284056abf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f8a2b7419272f37d709822957c3831') in 0.021940 seconds 
+  Import took 0.026058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Demo/SceneRoom.FBX
+  artifactKey: Guid(ecff0416803266d4fbbbdf504c7d3682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Demo/SceneRoom.FBX using Guid(ecff0416803266d4fbbbdf504c7d3682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee253766cc06aef275f36eae3bf457ca') in 0.020457 seconds 
+  Import took 0.023961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Demo/SM_Base_Collider.FBX
+  artifactKey: Guid(6aeee0be271b57e4d9962712f35be075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Demo/SM_Base_Collider.FBX using Guid(6aeee0be271b57e4d9962712f35be075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c135cbe95d4154ef507e3c778daa010e') in 0.019360 seconds 
+  Import took 0.023401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.654429 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials
+  artifactKey: Guid(e10e29cda6364cb41bca6cc359a713c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials using Guid(e10e29cda6364cb41bca6cc359a713c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5035e951c09174af38b5780ce2ddfc2') in 0.002239 seconds 
+  Import took 0.006817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100465 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/Billboard.mat
+  artifactKey: Guid(04924d18087a1f64191efa37dfd44855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/Billboard.mat using Guid(04924d18087a1f64191efa37dfd44855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e401c2ed614bcf4f6002cea97551c09') in 0.015356 seconds 
+  Import took 0.019934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/Broadleaf_Desktop_Atlas_Normal 1.tga
+  artifactKey: Guid(9d96d47ca4e81404b962be63e1e9c474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/Broadleaf_Desktop_Atlas_Normal 1.tga using Guid(9d96d47ca4e81404b962be63e1e9c474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bc2f36606dc754c301fbb07d458141') in 0.020518 seconds 
+  Import took 0.025118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/Broadleaf_Desktop_Atlas 1.tga
+  artifactKey: Guid(be058f1a6d98a544cbed9525e05f1eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/Broadleaf_Desktop_Atlas 1.tga using Guid(be058f1a6d98a544cbed9525e05f1eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48893bf03cc6f3b3f3576622baa3a707') in 0.016474 seconds 
+  Import took 0.021379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/Broadleaf_Desktop_Atlas_Billboards 1.tga
+  artifactKey: Guid(ff503812b9015ce41a66702f5eab6fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/Broadleaf_Desktop_Atlas_Billboards 1.tga using Guid(ff503812b9015ce41a66702f5eab6fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6b093c7d22ad1af09d4c7ff3259e72') in 0.032202 seconds 
+  Import took 0.036480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/Broadleaf_Desktop_Atlas_Billboards_Normal 1.tga
+  artifactKey: Guid(015e0afdbed93ad49be1e6200ce15f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/Broadleaf_Desktop_Atlas_Billboards_Normal 1.tga using Guid(015e0afdbed93ad49be1e6200ce15f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c43c4f282d8958ae4c212aa17a9746') in 0.013078 seconds 
+  Import took 0.017013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/BroadleafBark_Normal 1.tga
+  artifactKey: Guid(91f0000bd0627014396ba81f4373e0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/BroadleafBark_Normal 1.tga using Guid(91f0000bd0627014396ba81f4373e0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4188fce976c5d288830f2cd529c15c2f') in 0.014401 seconds 
+  Import took 0.018763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/BroadleafBark 1.tga
+  artifactKey: Guid(60d53803c6f885642a7b21613ad2a711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Broadleaf_Desktop 1 Materials/BroadleafBark 1.tga using Guid(60d53803c6f885642a7b21613ad2a711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6310c2d7dbc0dff40c8d68f1c16ce4b8') in 0.015159 seconds 
+  Import took 0.019291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.980827 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Materials
+  artifactKey: Guid(db8d4c5d2c0b2144595f848a8cdf3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Materials using Guid(db8d4c5d2c0b2144595f848a8cdf3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db714bcd1b93dffccbb444da47a2dc58') in 0.002432 seconds 
+  Import took 0.007246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032488 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Materials/01 - Default.mat
+  artifactKey: Guid(b1d9ff23f163aed4895dab8330e743b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Materials/01 - Default.mat using Guid(b1d9ff23f163aed4895dab8330e743b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00450589670950a37a7e7609dfb60a0') in 0.011349 seconds 
+  Import took 0.015697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Materials/spceckledstone512x5121.mat
+  artifactKey: Guid(ca4ac0204f887cd439b4cd68d052b2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Materials/spceckledstone512x5121.mat using Guid(ca4ac0204f887cd439b4cd68d052b2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7530726ae4e9c7548f32b831eef566de') in 0.012704 seconds 
+  Import took 0.016828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Materials/b312bfb3e031f4336a871b5aa56416b5--uv-mapping-the-surface.mat
+  artifactKey: Guid(7ed2aedf3639d1f44910b0cf84b85349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Materials/b312bfb3e031f4336a871b5aa56416b5--uv-mapping-the-surface.mat using Guid(7ed2aedf3639d1f44910b0cf84b85349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac0ddbd884060afad2429e5c3bcab6b') in 0.012960 seconds 
+  Import took 0.019386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Models/Materials/No Name.mat
+  artifactKey: Guid(40da37210e37dcd41b0117bed3ab4824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Models/Materials/No Name.mat using Guid(40da37210e37dcd41b0117bed3ab4824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ca40807acf1f1d7ee996e4c685413e') in 0.011061 seconds 
+  Import took 0.018256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.783248 seconds.
+  path: Assets/KriptoFX/MuzzleFlashes/Shaders
+  artifactKey: Guid(26683b66e968901498475b3a6b68a086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/MuzzleFlashes/Shaders using Guid(26683b66e968901498475b3a6b68a086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ce7c34b03c063a346652a5e781bb09') in 0.002709 seconds 
+  Import took 0.007921 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
